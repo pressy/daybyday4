@@ -1,0 +1,6 @@
+Feature: Posting comment
+
+  Scenario: Postin comment
+    Given I can access end point
+    When I post comment
+    Then the return status should be "200"
